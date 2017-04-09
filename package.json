@@ -1,0 +1,21 @@
+{
+  "name": "leveldb-test",
+  "version": "1.0.0",
+  "description": "leveldb-test",
+  "repository": "jeromedecoster/leveldb-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon 6-key-with-bytewise.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bytewise": "^1.1.0",
+    "level": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
