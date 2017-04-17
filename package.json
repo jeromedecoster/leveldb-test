@@ -1,11 +1,20 @@
 {
   "name": "leveldb-test",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "leveldb-test",
   "repository": "jeromedecoster/leveldb-test",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon 6-key-with-bytewise.js",
+    "1": "node 1-crud.js",
+    "2": "node 2-json.js",
+    "3": "node 3-batch.js",
+    "4": "node 4-create-read-stream.js",
+    "5": "node 5-key-with-delimiter.js",
+    "6": "node 6-key-with-bytewise.js",
+    "7": "node 7-sublevel.js",
+    "8": "node 8-level-exists.js",
+    "9": "node 9-level-secondary.js",
+    "start": "nodemon 9-level-secondary.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +22,10 @@
   "license": "MIT",
   "dependencies": {
     "bytewise": "^1.1.0",
-    "level": "^1.6.0"
+    "level": "^1.6.0",
+    "level-exists": "^2.0.2",
+    "level-secondary": "^1.1.1",
+    "level-sublevel": "^6.6.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

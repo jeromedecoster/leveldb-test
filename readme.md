@@ -21,7 +21,7 @@ npm i jeromedecoster/leveldb-test
 * [create db, put then get](https://www.youtube.com/watch?v=sR7p_JbEip0&t=61) from `1:01` to `3:52`
 
 ```
-node run 1-crud
+node run 1
 ```
 
 ## 2-json
@@ -30,7 +30,7 @@ node run 1-crud
 * [json value encoding](https://www.youtube.com/watch?v=Ssct_O1LET8&t=526) from `8:46` to `9:59`
 
 ```
-node run 2-json
+node run 2
 ```
 
 ## 3-batch
@@ -39,16 +39,17 @@ node run 2-json
 * [atomicity: all operations succeed or nothing is done](https://www.youtube.com/watch?v=Ssct_O1LET8&t=665) from `11:05` to `13:23`
 
 ```
-node run 3-batch
+node run 3
 ```
 
 ## 4-create-read-stream
 
 * [a stream of key/value](https://www.youtube.com/watch?v=sR7p_JbEip0&t=531) from `8:51` to `9:36`
 * [filter keys with gt and lt options](https://www.youtube.com/watch?v=Ssct_O1LET8&t=893) from `14:53` to `16:53`
+* [create read stream](https://www.youtube.com/watch?v=C-SbXvXi7Og&t=1113) from `18:33` to `19:59`
 
 ```
-node run 4-create-read-stream
+node run 4
 ```
 
 ## 5-key-with-delimiter
@@ -56,7 +57,7 @@ node run 4-create-read-stream
 * [delimiters ! and ~](https://www.youtube.com/watch?v=Ssct_O1LET8&t=1500) from `25:00` to `27:30`
 
 ```
-node run 5-key-with-delimiter
+node run 5
 ```
 
 ## 6-key-with-bytewise
@@ -65,7 +66,31 @@ node run 5-key-with-delimiter
 * [sorting with bytewise and date](https://www.youtube.com/watch?v=Ssct_O1LET8&t=1708) from `28:28` to `31:16`
 
 ```
-node run 6-key-with-bytewise
+node run 6
+```
+
+## 7-sublevel
+
+* [level-sublevel](https://www.youtube.com/watch?v=sR7p_JbEip0&t=358) from `5:58` to `10:43`
+
+```
+node run 7
+```
+
+## 8-level-exists
+
+* [level-exists](https://github.com/juliangruber/level-exists)
+
+```
+node run 8
+```
+
+## 9-level-secondary
+
+* [level-secondary](https://github.com/juliangruber/level-secondary)
+
+```
+node run 9
 ```
 
 ## License

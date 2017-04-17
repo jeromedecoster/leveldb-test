@@ -10,9 +10,4 @@ desktop.ini
 node_modules
 npm-debug.log
 Thumbs.db
-db-1-crud
-db-2-json
-db-3-batch
-db-4-create-read-stream
-db-5-key-with-delimiter
-db-6-key-with-bytewise
+db-*
